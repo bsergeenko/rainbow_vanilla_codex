@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f2">
+  <meta name="description" content="Handgefertigte Regenmäntel mit individuellen Farben und Motiven. Entdecke Rainbow.design für Damen, Herren, Kinder und Hunde.">
+  <title>Rainbow.design – Farbe für Regentage</title>
+  <link rel="icon" href="http://localhost:3000/assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Zum Inhalt</a>
+  <div id="app"><p class="loading" role="status">Rainbow.design wird geladen …</p></div>
+  <div id="notifications" aria-live="polite"></div>
+  <div id="network-status" class="network-status" role="status" hidden>Daten werden geladen …</div>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title">
+    <form method="dialog"><span class="eyebrow">Bitte bestätigen</span><h2 id="confirm-title"></h2><p id="confirm-text"></p><div class="actions"><button value="cancel" class="button secondary">Abbrechen</button><button value="confirm" class="button">Bestätigen</button></div></form>
+  </dialog>
+</body>
+</html>
